@@ -38,7 +38,7 @@ function dezena (num1){
   const dezena = Math.trunc(num1 / 10)
   const centena_calculo = Math.trunc(num1 / 100) * 10
   const dezena_final = (dezena - centena_calculo)
-    return `${dezena_final} centena/s e `
+    return `${dezena_final} dezena/s e `
 }
 
 function unidade(num1, centena, dezena){
